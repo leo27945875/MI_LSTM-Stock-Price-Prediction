@@ -92,7 +92,7 @@ def Predict():
     isRegression = True
     predictor = Ensembler(args.SYMBOLS,
                           args.TARGET_FEATURE,
-                          args.REGRESSION_MODEL_SAVE_FOLDER if isRegression else args.FINETUNE_MODEL_SAVE_FOLDER,
+                          args.REGRESSION_MODEL_SAVE_FOLDER,
                           args.USED_DATA_FILE_PATH,
                           args.PREDICTION_FILE_SAVE_PATH,
                           isRegression)
