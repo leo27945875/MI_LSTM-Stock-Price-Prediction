@@ -1,0 +1,1 @@
+{"window": 30, "inputSize": 1, "embedSize0": 64, "embedSize1": 128, "embedSize2": 256, "encoderLayers": 2, "encoderDropout": 0.1, "encoderBidirectional": true, "encoderAttention": true, "attentionHeads": 4, "attentionLayers": 1, "regressorLayers": 4}
